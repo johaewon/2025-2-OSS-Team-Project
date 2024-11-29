@@ -1,0 +1,11 @@
+torch==1.7.1
+torchvision==0.8.2
+transformers==4.5.1
+opencv-python==4.5.1.48
+Pillow==8.1.0
+tk
+speech_recognition==3.8.1
+soundfile==0.10.3.post1
+pygame==2.0.1
+efficientnet_pytorch==0.7.0
+datasets==1.5.0
