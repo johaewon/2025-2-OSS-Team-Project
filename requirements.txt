@@ -3,7 +3,6 @@ torchvision==0.8.2
 transformers==4.5.1
 opencv-python==4.5.1.48
 Pillow==8.1.0
-
 speech_recognition==3.8.1
 soundfile==0.10.3.post1
 pygame==2.0.1
