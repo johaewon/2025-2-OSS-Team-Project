@@ -13,3 +13,18 @@
 - 데이콘에서 제공하는 '이미지 기반 질의 응답 AI 경진대회' 월간 데이콘 데이터셋
 
 이 데이터셋들은 모델 훈련에 사용되어 시스템의 정확성과 효율성을 높입니다.
+
+## 모델 구성
+
+### STT 모델
+STT(Speech-to-Text) 모델은 사용자의 음성 질문을 텍스트로 변환합니다. <br>
+사용 모델: Google Speech Recognition API 
+
+### VQA 모델
+VQA(Visual Question Answering) 모델은 이미지와 관련된 질문을 받아 이미지를 분석하고 적절한 답변을 생성합니다.<br>
+사용 모델: EfficientNet + Gpt-2
+
+### TTS 모델
+TTS(Text-to-Speech) 모델은 시스템이 생성한 텍스트 답변을 음성으로 변환합니다. 이를 통해 시각 장애인 사용자는 음성으로 답변을 들을 수 있습니다.<br>
+사용 모델: SpeechT5
+
