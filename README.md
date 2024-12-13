@@ -4,6 +4,8 @@
 
 ## 시스템 개요
 
+![시스템 구성](image/figure.png "시스템 개요")
+
 시스템은 사용자의 음성 질문을 받아 이미지를 분석하고, 해당 이미지에 대한 답변을 음성으로 제공합니다. 이 과정은 STT(Speech-to-Text) 모델, VQA(Visual Question Answering) 모델, 그리고 TTS(Text-to-Speech) 모델을 통해 이루어집니다.
 
 ## 데이터셋
