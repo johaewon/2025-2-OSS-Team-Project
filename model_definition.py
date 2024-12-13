@@ -31,7 +31,7 @@ class VQAModel(nn.Module):
         return output
 
 # 모델 로드
-model_path = '모델 경로'
+model_path = './model_training_code/EfficientNet.pth'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = torch.load(model_path, map_location=device)  
 model.to(device)
